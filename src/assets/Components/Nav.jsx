@@ -1,10 +1,12 @@
+import navimage from "/public/navimage.png"
+
 function Nav(){
 
     return(
         <>
             <div className="navbar">
 
-                <img src="./public/navimage.png" alt="logo"></img>
+                <img src={navimage} alt="logo"></img>
                 <div className="buttondiv">
                 <button className="navbuttons">Home</button>
                 <button className="navbuttons">About</button>
