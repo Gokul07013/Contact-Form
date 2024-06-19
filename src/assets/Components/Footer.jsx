@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Button from "./Buttons";
+import Service from "/public/Service.svg";
 
 
 function Footer(){
@@ -51,7 +52,7 @@ const submit = (event) => {
             </div>
 
             <div className="rightdiv">
-                <img src="./public/Service.svg" alt="serviceimg"></img>
+                <img src={Service} alt="serviceimg"></img>
             </div>
         </div>
         </>
